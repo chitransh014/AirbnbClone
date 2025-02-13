@@ -12,8 +12,8 @@ const listingSchema= new Schema({
     image: {
         type: String,
         default:
-            "https://i0.wp.com/picjumbo.com/wp-content/uploads/luxury-villa-in-bali-above-a-flowing-river-and-waterfall-free-photo.jpeg?w=600&quality=80",
-        set: (v)=> v ==="" ? "https://i0.wp.com/picjumbo.com/wp-content/uploads/luxury-villa-in-bali-above-a-flowing-river-and-waterfall-free-photo.jpeg?w=600&quality=80" : v,
+            "https://images.unsplash.com/photo-1594479125841-ff7800c6afcc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        set: (v)=> v ==="" ? "https://images.unsplash.com/photo-1594479125841-ff7800c6afcc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" : v,
     },
     price : Number,
     location : String,
